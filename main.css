@@ -276,8 +276,13 @@
       transform: translate3d(100%, 0, 0); }
       .menu-branding .portrait {
         background: url("portrait_small.jpg");
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px; 
+      }
+      .menu-branding .portrait {
+        background: url("portrait_small.jpg");
+        width: 150px;
+        height: 150px;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -287,9 +292,8 @@
     /* Adjust for smaller screens like mobile phones */
     @media (max-width: 600px) {
         .menu-branding .portrait {
-            width: 150px;  /* Resize the portrait on smaller screens */
-            height: 150px;
-            margin: auto;
+            width: 120px;  /* Resize the portrait on smaller screens */
+            height: 120px; 
         }
     }
     
